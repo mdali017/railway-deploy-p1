@@ -13,6 +13,11 @@ app.get("/", (req, res) => {
 });
 
 // testing
+app.get("/coffee", (req, res) => {
+  res.send("All coffee is here...");
+});
+
+// testing
 app.get("/all-product", (req, res) => {
   res.send("All Product is here...");
 });
