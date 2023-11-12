@@ -22,6 +22,11 @@ app.get("/all-product", (req, res) => {
   res.send("All Product is here...");
 });
 
+// testing
+app.get("/a", (req, res) => {
+  res.send("All Product is here...");
+});
+
 app.listen(port, "0.0.0.0", () => {
   console.log(`Server is running on port : ${port}`);
 });
